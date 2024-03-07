@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Proes from './Proes';
 import reportWebVitals from './reportWebVitals';
+import C from './C';
+import Z from './Z';
+import X from './X';
+import Y from './Y';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Y name={true}/>
   </React.StrictMode>
 );
 
